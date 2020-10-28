@@ -61,7 +61,7 @@ sender re-transmits the segment, but only to those receivers from which it has n
 * I carried out a number of experiments to evaluate the effect of the number n of receivers, MSS, and packet loss probability p on the total delay for transferring a file using the P2MP-FTP.
 * To this end, select a file that is approximately 10MB in size, and run the client and n servers on different hosts, such that the client is separated from the servers by several router hops. 
 * For instance, run the client on your laptop/desktop connected at home and the servers on EOS machines on campus; or the client machine (e.g., your laptop) could be located in the same room as the servers, but have the client connected to a wireless LAN while the servers are connected to the wired network.
-* I recorded the size of the file transferred and the round-trip time (RTT) between client and servers (e.g., as reported by traceroute), and include these in the [***report***](https://github.com/ssudher/TCP_Multicast/blob/master/Report_Project_2.pdf).
+* I recorded the size of the file transferred and the round-trip time (RTT) between client and servers (e.g., as reported by traceroute), and include these in the [***report***](https://github.com/ssudher/TCP_Multicast/blob/master/Report_Project_2.pdf)
 
 ### Task 1: Effect of the Receiver Set Size n
 * For this first task, set the MSS to 500 bytes and the loss probability p = 0.05. 
